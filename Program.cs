@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        //1)Program to find Prime from n1 to n2
+        //1)Program to find Prime Numbers from n1 to n2
         Console.Write("Enter n1: ");
         int n1 = Convert.ToInt32(Console.ReadLine());
 
@@ -29,7 +29,7 @@ internal class Program
                 prime = true;
         }
 
-        //2)Program to find Perfect from n1 to n2
+        //2)Program to find Perfect Numbers from n1 to n2
         /*Console.Write("Enter n1: ");
         int n1 = Convert.ToInt32(Console.ReadLine());
 
