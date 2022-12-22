@@ -14,7 +14,7 @@ internal class Program
         bool prime = true;
         for (int i = n1; i <= n2; ++i)
         {
-            for (int j = 2; j <= Math.Sqrt(i); ++j)
+            for (int j = 2; j <= i/2; ++j)
             {
                 if (i % j == 0)
                 {
